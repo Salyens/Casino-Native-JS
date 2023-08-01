@@ -1,6 +1,6 @@
 # Casino. The second project
 - HTML 5
 - CSS
-- JS
+- JS 
 
 You can view [GitHub Pages](https://salyens.github.io/Casino/).
