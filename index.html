@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casino</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="chips-wrapper">
+        <div class="casino-chip">
+          <img
+            class="img-chip-bet img-chip-bet_second"
+            src="./img/100.png"
+            alt=""
+          />
+          <span class="cost">100</span>
+        </div>
+        <div class="casino-chip">
+          <img
+            class="img-chip-bet img-chip-bet_second"
+            src="./img/200.png"
+            alt=""
+          />
+          <span class="cost">200</span>
+        </div>
+        <div class="casino-chip">
+          <img
+            class="img-chip-bet img-chip-bet_second"
+            src="./img/300.png"
+            alt=""
+          />
+          <span class="cost">300</span>
+        </div>
+        <div class="casino-chip">
+          <img
+            class="img-chip-bet img-chip-bet_second"
+            src="./img/500.png"
+            alt=""
+          />
+          <span class="cost">500</span>
+        </div>
+        <div class="casino-chip">
+          <img
+            class="img-chip-bet img-chip-bet_second"
+            src="./img/1000.png"
+            alt=""
+          />
+          <span class="cost">1000</span>
+        </div>
+      </div>
+      <div id="roulette-wrapper">
+        <div id="sections-up">
+          <div class="section-up">
+            <span>1-12</span>
+          </div>
+          <div class="section-up">
+            <span>13-24</span>
+          </div>
+          <div class="section-up">
+            <span>25-36</span>
+          </div>
+        </div>
+        <div id="wrapper_with_zero">
+          <div id="zero">
+            <span>0</span>
+          </div>
+
+          <div id="section-numbers-wrapper">
+            <div class="section-numbers">
+              <span>3</span>
+            </div>
+            <div class="section-numbers">
+              <span>6</span>
+            </div>
+            <div class="section-numbers">
+              <span>9</span>
+            </div>
+            <div class="section-numbers">
+              <span>12</span>
+            </div>
+            <div class="section-numbers">
+              <span>15</span>
+            </div>
+            <div class="section-numbers">
+              <span>18</span>
+            </div>
+            <div class="section-numbers">
+              <span>21</span>
+            </div>
+            <div class="section-numbers">
+              <span>24</span>
+            </div>
+            <div class="section-numbers">
+              <span>27</span>
+            </div>
+            <div class="section-numbers">
+              <span>30</span>
+            </div>
+            <div class="section-numbers">
+              <span>33</span>
+            </div>
+            <div class="section-numbers">
+              <span>36</span>
+            </div>
+            <div class="section-numbers">
+              <span>2</span>
+            </div>
+            <div class="section-numbers">
+              <span>5</span>
+            </div>
+            <div class="section-numbers">
+              <span>8</span>
+            </div>
+            <div class="section-numbers">
+              <span>11</span>
+            </div>
+            <div class="section-numbers">
+              <span>14</span>
+            </div>
+            <div class="section-numbers">
+              <span>17</span>
+            </div>
+            <div class="section-numbers">
+              <span>20</span>
+            </div>
+            <div class="section-numbers">
+              <span>23</span>
+            </div>
+            <div class="section-numbers">
+              <span>26</span>
+            </div>
+            <div class="section-numbers">
+              <span>29</span>
+            </div>
+            <div class="section-numbers">
+              <span>32</span>
+            </div>
+            <div class="section-numbers">
+              <span>35</span>
+            </div>
+            <div class="section-numbers">
+              <span>1</span>
+            </div>
+            <div class="section-numbers">
+              <span>4</span>
+            </div>
+            <div class="section-numbers">
+              <span>7</span>
+            </div>
+            <div class="section-numbers">
+              <span>10</span>
+            </div>
+            <div class="section-numbers">
+              <span>13</span>
+            </div>
+            <div class="section-numbers">
+              <span>16</span>
+            </div>
+            <div class="section-numbers">
+              <span>19</span>
+            </div>
+            <div class="section-numbers">
+              <span>22</span>
+            </div>
+            <div class="section-numbers">
+              <span>25</span>
+            </div>
+            <div class="section-numbers">
+              <span>28</span>
+            </div>
+            <div class="section-numbers">
+              <span>31</span>
+            </div>
+            <div class="section-numbers">
+              <span>34</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="sections-down">
+          <div class="section-down">
+            <span>1-18</span>
+          </div>
+          <div class="section-down">Even</div>
+          <div class="section-down" data-color="red">
+            <span>Red</span>
+          </div>
+          <div class="section-down">
+            <span>Black</span>
+          </div>
+          <div class="section-down">
+            <span>Odd</span>
+          </div>
+          <div class="section-down">
+            <span>19-36</span>
+          </div>
+        </div>
+        <div id="out-result">
+          <div id="value">
+            <span></span>
+          </div>
+          <div id="score">
+            <div id="bet">Bet: 0</div>
+            <div id="win">Win: 0</div>
+            <div id="amount-wrapper">
+              <span>Your amount is</span>
+              <div id="amount"></div>
+            </div>
+          </div>
+        </div>
+        <div id="btn-wrapper">
+          <button class="btn">
+            <span>Play</span>
+          </button>
+          <button class="btn" id="btn-reset">
+            <span>Reset</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="casino-choice">
+      <img class="img-chip" src="./img/casino-choice.png" alt="" />
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

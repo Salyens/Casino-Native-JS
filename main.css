@@ -1,0 +1,249 @@
+body {
+  box-sizing: border-box;
+  color: white;
+  background-image: url(./img/background-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#container {
+  display: flex;
+  margin: 50px 0 0 50px;
+}
+
+#chips-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.casino-chip {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 50px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.img-chip-bet {
+  position: absolute;
+  width: 45px;
+  transition: 0.3s;
+}
+
+.cost {
+  padding-left: 65px;
+  font-size: 38px;
+}
+
+#roulette-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 945px;
+  padding: 0 40px 0 75px;
+}
+
+#wrapper_with_zero {
+  position: relative;
+  display: flex;
+  width: 945px;
+}
+
+#zero {
+  position: absolute;
+  top: 0;
+  left: -62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 233px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 25px;
+}
+
+#zero:hover {
+  font-size: 35px;
+  transition: 0.2s;
+}
+
+#section-numbers-wrapper {
+  max-height: 247.5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 74px;
+  min-height: 75px;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: 0.2s;
+  font-size: 23px;
+}
+
+.section-numbers:hover {
+  font-size: 35px;
+  transition: 0.2s;
+}
+
+#sections-up {
+  display: flex;
+  cursor: pointer;
+}
+
+.section-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 315px;
+  height: 45px;
+  transition: 0.2s;
+  border: 2px solid white;
+  font-size: 23px;
+}
+
+.section-up:hover {
+  font-size: 35px;
+  transition: 0.2s;
+}
+
+#sections-down {
+  display: flex;
+  cursor: pointer;
+}
+
+.section-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 157.5px;
+  text-align: center;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.2s;
+  height: 45px;
+  font-size: 23px;
+}
+
+.section-down:hover {
+  font-size: 35px;
+  transition: 0.2s;
+}
+
+.section-down:nth-of-type(3) {
+  background-color: red;
+}
+.section-down:nth-of-type(4) {
+  background-color: black;
+}
+
+#value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 225px;
+  font-size: 100px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#bet {
+  color: rgb(220, 20, 20);
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #f2dfa2;
+  padding: 2px;
+  width: 20%;
+}
+
+#win {
+  color: green;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #f2dfa2;
+  padding: 2px;
+  width: 20%;
+}
+
+#amount-wrapper {
+  display: flex;
+  background-color: #f2dfa2;
+  padding: 2px;
+  color: black;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  column-gap: 5px;
+}
+
+#btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 240px;
+  height: 90px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgba(7, 19, 5, 0.337);
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 18px;
+  font-size: 25px;
+}
+
+.btn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn:hover {
+  font-size: 35px;
+  transition: 0.2s;
+}
+
+#casino-choice {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  z-index: 1;
+}
+
+.img-chip {
+  width: 100%;
+  height: auto;
+}
