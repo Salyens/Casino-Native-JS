@@ -1,4 +1,4 @@
-# Casino
+# Casino. The second project
 - HTML 5
 - CSS
 - JS
